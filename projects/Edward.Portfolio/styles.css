@@ -89,26 +89,19 @@ padding:0 10%;
    color:aqua;
    margin: 0 40%;
 }
-.projects p{
-  align-items: center;
-  justify-content: center;
-  text-align: justify;
-  font-size: 200%;
-  font: weight 600px;;
-}
-.projects h3{
-    font-size: 300%;
-    font-weight:450px
-}
 p{
     font-size: larger;
     justify-content: center;
     align-items: center;
     margin-left: 25px;
+    text-align: center;
 
 }
 form{
-color:aqua;
+margin:0 auto;
+max-width: 400px;
+min-width: 300px;
+width:60vw;
 }
 label{
     display: block;
@@ -118,4 +111,8 @@ input{
     border: 2px solid #263947;
     box-shadow: #1c143b;
     border-radius: 5px;
+}
+fieldset{
+    border:none;
+    padding:2rem 0;
 }
